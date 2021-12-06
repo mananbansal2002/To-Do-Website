@@ -1,0 +1,89 @@
+body{
+  padding:0;
+  margin:0;
+  font-family:sans-serif;
+  color:#efe958;
+  height:100vh;
+  width:100vw;
+    background-image: url("https://www.timecamp.com/blog/wp-content/uploads/2017/09/delegate-tasks.jpeg");
+  background-size:cover;
+}
+  
+  
+.container{
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    justify-content:center;
+}
+form{
+  padding:20px;
+  background-color:#f4f4f4;
+ 
+}
+.container h1{
+  text-align:center;
+  color:#ffffff;
+}
+
+.container input[type="text"]
+{
+  width:80%;
+  height:35px;
+  border:none;
+  font-size:15px;
+  color:#2f3f4f; 
+   background-color:#f4f4f4;
+}
+.container input[type="text"]:hover
+{
+      border-color: #2f3f4f;
+      border-width: 1px;
+      border-style: solid;
+      background-color:white;
+}
+
+.container button{
+  font-size:10px;
+  color:#538DFF;
+  background-color:#f4f4f4;
+  border:none;
+}
+
+
+.container .taskboard{
+  display:none;
+  background-color:#f4f4f4;
+  margin-top:20px;
+  padding:10px 10px 0px;
+  padding-right:40px;
+  padding-left:0px;
+
+}
+.container .taskboard ul{
+  list-style:none;
+}
+.container .taskboard li{
+  font-size:15px;
+  border-bottom:1px solid #53BD55;
+  padding-top:15px;
+  padding-bottom:10px;
+  color:#2f4f4f;
+}
+
+.container .taskboard .delete{
+  cursor: pointer;
+  background-color: red;
+  padding: 0px 3px 0px 3px;
+  color: #ffffff;
+  text-decoration:none;
+}
+.container .taskboard #remove{
+  float: right;
+  text-align: right;
+  color: tomato;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding-bottom:5px;
+}
